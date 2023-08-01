@@ -102,7 +102,7 @@ header nav a:hover {
 #welcome .box .textbox .btn:hover {
   background-color: #d9ac08;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 771px) {
   #welcome .box .textbox h1 {
     font-size: 33px;
   }
@@ -112,7 +112,7 @@ header nav a:hover {
 }
 
 #services {
-  padding: 70px;
+  padding: 70px 0;
 }
 #services .textbox h1 {
   font-size: 50px;
@@ -147,6 +147,11 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   border-radius: 70px;
+}
+@media screen and (max-width: 768px) {
+  #services .textbox p {
+    margin-bottom: 20px;
+  }
 }
 
 #portfolio {
@@ -438,6 +443,9 @@ header nav a:hover {
 }
 
 #contact {
+  background-image: url(assets//map.png);
+  background-size: cover;
+  background-position: center;
   background-color: #212529;
   background-position: center center;
   background-repeat: no-repeat;
